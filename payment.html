@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - E-Commerce Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Payment</h1>
+    </header>
+    <main>
+        <section id="payment">
+            <h2>Enter Payment Details</h2>
+            <form id="paymentForm" onsubmit="return validatePaymentForm()">
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" required>
+                <button type="submit">Pay</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 E-Commerce Website</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
